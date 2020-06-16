@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+// import CounterThreeReducer from './components/reducers/CounterThreeReducer'
+import AppParent from './components/reducers/AppParent';
+// import CounterTwoReducer from './components/reducers/CounterTwoReducer';
 // import FRParentInput from './components/refs/FRParentInput';
 // import RefsDemo from './components/refs/RefsDemo';
 // import FocusInput from './components/refs/FocusInput';
@@ -18,8 +21,9 @@ import './App.css';
 // import Counter from './components/renderprops/Counter';
 // import DocTitleOne from './components/customhook/DocTitleOne'
 // import DocTitleTwo from './components/customhook/DocTitleTwo'
-import CounterOne from './components/customhook/CounterOne';
-import CounterTwo from './components/customhook/CounterTwo';
+// import CounterOne from './components/customhook/CounterOne';
+// import CounterTwo from './components/customhook/CounterTwo';
+// import CounterOneReducer from './components/reducers/CounterOneReducer'
 
 export const userContext =React.createContext()
 export const channelContext =React.createContext()
@@ -59,8 +63,12 @@ function App() {
             {/* <FRParentInput/> */}
             {/* <DocTitleOne/>
             <DocTitleTwo/> */}
-            <CounterOne/>
-            <CounterTwo/>
+            {/* <CounterOne/>
+            <CounterTwo/> */}
+            {/* <CounterOneReducer/> */}
+            {/* <CounterTwoReducer/> */}
+            {/* <CounterThreeReducer/> */}
+            <AppParent/>
     </div>
   );
 }
